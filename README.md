@@ -59,4 +59,3 @@ Yahoo is the worst... they have 2 pages for some reason, one for username and th
 Interestingly enough it works. I just have to use the extension twice to submit it because our login function will just press the button when executed.
 
 The last change I made was to replace the username and password variables from the function arguments in the loginWithCredentials function so that if a user has their username and password saved on their browser it can use that to login instead of reaching into the credentials.json file.
-# auth-chrome-extension
