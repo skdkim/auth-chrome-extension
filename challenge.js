@@ -11,19 +11,15 @@ function getUsernameField() {
 
   if ($("input[name=email]").length !== 0){
     // facebook
-    // console.log("fb");
     return $("input[name=email]");
   } else if ($("input[name=username]").length !== 0){
     // instagram, citi
-    // console.log("ig");
     return $("input[name=username]");
   } else if ($("input[name=login_email]").length !== 0){
     // paypal
-    // console.log("pp");
     return $("input[name=login_email]");
   } else if ($("input[name=onlineId1]").length !== 0){
     // Bank of America
-    // console.log("boa");
     return $("input[name=onlineId1]");
   }
   console.log("no username found");
